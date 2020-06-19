@@ -79,15 +79,15 @@ chmod ugo+x watchlog.sh
 
 Выполняем команду ***tail -f /var/log/messages***:
 
-Jun 18 07:17:01 localhost systemd: Reloading.
-Jun 18 07:17:07 localhost systemd: Started Run watchlog script every 30 second.
-Jun 18 07:17:07 localhost systemd: Starting Run watchlog script every 30 second.
-Jun 18 07:17:08 localhost systemd: Starting My watchlog service...
-Jun 18 07:17:08 localhost root: Thu Jun 18 07:17:08 UTC 2020: I found word, Master!
-Jun 18 07:17:08 localhost systemd: Started My watchlog service.
-Jun 18 07:17:30 localhost systemd: Starting My watchlog service...
-Jun 18 07:17:30 localhost root: Thu Jun 18 07:17:30 UTC 2020: I found word, Master!
-Jun 18 07:17:30 localhost systemd: Started My watchlog service.
+    Jun 18 07:17:01 localhost systemd: Reloading.
+    Jun 18 07:17:07 localhost systemd: Started Run watchlog script every 30 second.
+    Jun 18 07:17:07 localhost systemd: Starting Run watchlog script every 30 second.
+    Jun 18 07:17:08 localhost systemd: Starting My watchlog service...
+    Jun 18 07:17:08 localhost root: Thu Jun 18 07:17:08 UTC 2020: I found word, Master!
+    Jun 18 07:17:08 localhost systemd: Started My watchlog service.
+    Jun 18 07:17:30 localhost systemd: Starting My watchlog service...
+    Jun 18 07:17:30 localhost root: Thu Jun 18 07:17:30 UTC 2020: I found word, Master!
+    Jun 18 07:17:30 localhost systemd: Started My watchlog service.
 
 ### 2 Из репозитория epel установить spawn-fcgi и переписать init-скрипт на unit-файл (имя service должно называться так же: spawn-fcgi);
 
